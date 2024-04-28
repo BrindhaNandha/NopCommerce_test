@@ -25,7 +25,6 @@
     	<groupId>org.seleniumhq.selenium</groupId>
     	<artifactId>selenium-java</artifactId>
     	<version>4.18.1</version>
-    	<scope>test</scope>
   	</dependency>
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 	<dependency>
@@ -57,7 +56,7 @@
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
     <version>3.2.5</version>
-    <scope>test</scope>
+    <scope>runtime</scope>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -82,25 +81,12 @@
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
     <version>1.18.32</version>
-    <scope>test</scope>
 </dependency>
 <dependency>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
   <version>3.13.0</version>
   <type>maven-plugin</type>
-  <scope>test</scope>
 </dependency>
-
-  	<dependency>
-  		<groupId>com</groupId>
-  		<artifactId>Amazon_IPT_APR</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>com</groupId>
-  		<artifactId>Maven_NewIPT</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
 </project>

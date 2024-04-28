@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.pom.GiftCardsPOM;
 import com.pom.LoginPOM;
-import com.runner.RunnerTest;
+import com.runner.Test_Runner;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -20,7 +20,7 @@ import com.base.BaseClass;
 
 public class GiftCard_StepDef extends BaseClass {
 
-	public WebDriver driver=RunnerTest.driver;
+	public WebDriver driver=Test_Runner.driver;
 	//@Before
 	public void beforeScenario(Scenario s) {
 		System.out.println("Scenario : "+s.getName());

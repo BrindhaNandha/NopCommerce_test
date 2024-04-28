@@ -19,7 +19,7 @@ import com.nopcommerce.property.configReader;
 					"json:Reports/JSONREport.jason",
 					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}					)
 
-public class RunnerTest {
+public class Test_Runner {
 	public static WebDriver driver;
 @BeforeClass
 	public static void setUp() {
