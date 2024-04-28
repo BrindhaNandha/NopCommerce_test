@@ -16,13 +16,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import com.pom.LoginPOM;
-import com.runner.Test_Runner;
+import com.runner.RunnerTest;
 import com.pom.CustomerPOM;
 import com.nopcommerce.property.configReader;
 
 public class Customer_StepDef extends BaseClass {
 	
-	public WebDriver driver=Test_Runner.driver;
+	public WebDriver driver=RunnerTest.driver;
 	@Before
 	public void beforeScenario(Scenario s) {
 		System.out.println("Scenario : "+s.getName());
